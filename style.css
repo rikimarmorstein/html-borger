@@ -1,0 +1,74 @@
+
+
+.ingidients {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.meetImages, .lettuceImages, .eggImages, .onionImages{
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin: -10px;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  /* background-color: blue; */
+}
+p{
+  text-align: left;
+}
+
+button {
+  width: 125px;
+  margin: 5px;
+  padding: 5px;
+
+}
+.sum{
+  text-align: left;
+}
+
+
+/* .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+
+.blue {
+  background-color: blue;
+
+}
+
+.green {
+  background-color: green;
+
+} */

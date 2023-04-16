@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Burger Builder</title>
+</head>
+<body>
+  
+  <h1>Burger Builder</h1>
+
+
+<!-- <div class="box-container">
+  <div class="box red">I am a box</div>
+  <div class="box blue">I am a box</div>
+  <div class="box green">I am a box</div>
+</div> -->
+
+
+<div class="burger-container">
+  <div class="control-container">
+    <!-- <p>Total price is <span id="totalPrice">10</span>$</p> -->
+    <fieldset>
+      <legend>Add Meet</legend>
+      <table >
+        <tr>
+        <td ><input type="radio" id="regular" name="fav_language" value="regular"><label for="regular">regular</label></td>
+<td><button onclick="removeRegular()">Remove </button></td>      
+      </tr>
+      <tr>
+        <td><input type="radio" id="vegetarian" name="fav_language" value="vegetarian"><label for="vegetarian">vegetarian</label></td>
+        <td><button onclick="removeVegetarian()">Remove </button></td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="vegan" name="fav_language" value="vegan">
+<label  for="vegan">vegan</label></td>
+<td><button onclick="removeVegan()">Remove </button>
+</td>
+      </tr>
+      <tr><td><button onclick="addAllMeet()">Add</button></td></tr>
+      </table>
+  
+
+
+
+      <!-- <button onclick="addMeet()">Add</button><label for="regular">regular</label>
+      <br>
+      <button onclick="addMeet()">Add</button><label for="vegetarian">vegetarian</label>
+      <br>
+      <button onclick="addMeet()">Add</button><label for="vegan">vegan</label>
+      <br> -->
+</fieldset>
+    <!-- <button onclick="removeMeet()">Remove Meet</button> -->
+    <table >
+      <tr>
+      <td><button onclick="addLettuce()">Add Lettuce</button></td>
+      <td><button onclick="removeLettuce()">Remove Lettuce</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="addEgg()">Add Egg</button></td>
+      <td><button onclick="removeEgg()">Remove Egg</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="addOnion()">Add Onion</button></td>
+      <td><button onclick="removeOnion()">Remove Onion</button></td>
+    </tr>
+     </table>
+    
+    <fieldset>
+      <legend>
+        Total price is </legend><p><span id="totalPrice">10</span>$</p>
+    </fieldset>
+    <button onclick="end()">for payment</button>
+    <p><span id="failedEnd"></span></p>
+    <p><span id="End"></span></p>
+
+  </div>
+  <div class="ingidients">
+    <img src="./images/top.png" alt="bun top">
+    <div id="meetImages" class="meetImages"></div>
+    <div id="lettuceImages" class="lettuceImages"></div>
+    <div id="eggImages" class="eggImages"></div>
+    <div id="onionImages" class="onionImages"></div>
+
+    <img src="./images/button.png" alt="bun bottom">
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
